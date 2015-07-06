@@ -1,0 +1,77 @@
+body{
+        text-align: center;
+        background: #eee url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAUAAAAFCAMAAAC6sdbXAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAAZQTFRF3d3d////riJKgAAAAAJ0Uk5T/wDltzBKAAAAFUlEQVR42mJgBAEGGMmAxAYCgAADAAGGABmnk/7aAAAAAElFTkSuQmCC);
+        font: 13px 'trebuchet MS', Arial, Helvetica;
+        font-size: 1.8vmin;
+    }
+
+img {
+    max-width: 100%;
+}
+
+.header-whole {
+    margin: 0px;
+    padding: 0px;
+    background-color: #71acd6;
+}
+.nav-wrapper {
+    background-color: #000316;
+}
+
+.side-nav {
+    position: relative;
+    width: 150px;
+    opacity: .7;
+    height: 40px;
+}
+
+.left {
+    margin-left: 5%;
+}
+.left:hover {
+    background-color: #1976d2;
+}
+
+
+.dropdown-button {
+    width: 100%;
+    text-align: center;
+    background-color: #1976d2;
+}
+.dropdown-button:hover {
+    background-color: #000316;
+}
+
+.team1_image {
+    width: 60px;
+    height: 60px;
+    background-color: blue;
+}
+.team2_image {
+    width: 60px;
+    height: 60px;
+    background-color: red;
+}
+
+@media screen and (max-width: 600px) {
+    .container {
+        margin: 0px;
+        width: 100%;
+    }
+    .dropdown-button {
+        padding: 8.5px 5px 0px 5px;
+        height: 50px;
+    }
+    
+}
+@media screen and (max-width: 992px) {
+
+    
+}
+@media screen and (min-width: 992px) {
+
+    
+}
+
+    
+
